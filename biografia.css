@@ -1,0 +1,59 @@
+/* styles.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;    /* Alinha verticalmente */
+    height: 100vh;          /* 100% da altura da viewport */
+}
+
+p {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+img {
+    display: table;
+    text-align: center;
+    border-top: none;
+    padding-top: 0;
+    margin-bottom: 40px;
+    float: inline-start;
+    border: 30px;
+
+}
+
+
+/* Reset básico para margens e preenchimentos */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.texto{
+    color: aliceblue;
+    text-align: justify;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 25px;
+}
+
+.footer {
+    background-color: #219394;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+}
